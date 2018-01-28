@@ -17,7 +17,17 @@ Data preprocessing:
 - The units used for the accelerations (total and body) are 'g's (gravity of earth -> 9.80665 m/seg2).
 - The gyroscope units are rad/seg.
 
+Model Structure:
+1. Input layer with 561 features
+2. Second layer with 100 neuron and RELU
+3. Third layer with 50 neuron and RELU
+4. Bang, dropout of .5 to fire off 50% random neuron
+5. Fourth layer with 25 neuron and RELU
+6. Fifth layer with 10 neuron and RELU
+7. Sixth layer with 5 neuron and RELU
+8. Last layer with 6 classification with softmax function, since it is a multi-class classification. 
+
+
+
 Dataset courtesy:
 https://archive.ics.uci.edu/ml/machine-learning-databases/00240/
-
-Model Structure:
