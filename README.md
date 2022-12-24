@@ -1,4 +1,4 @@
-# Human_Activity_Classification_Using_Deep_Nets
+# human_activity_classification
 Feed forward neural network that classifies the current physical activity of the user using accelerometer and gyroscope data from mobile phone.
 
 # Acheived accuarcy of ~96 after 1000 epochs.
